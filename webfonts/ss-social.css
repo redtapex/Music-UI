@@ -51,11 +51,7 @@
   -o-font-feature-settings: "liga";
   font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
-<<<<<<< HEAD
   font-size: 14px;
-=======
-  font-size: 16px;
->>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
   padding: 0px 4px;
 }
 

@@ -6,6 +6,7 @@ html {
 }
 body {
   margin: 0;
+  overflow-x:hidden; 
 }
 article,
 aside,
@@ -271,6 +272,7 @@ body {
   color: #000;
   background-color: #ffffff;
   letter-spacing: 2px;
+  overflow-x: hidden;
 }
 input,
 button,
@@ -463,11 +465,7 @@ h6,
 }
 p {
   margin: 0 0 10px;
-<<<<<<< HEAD
   color: #535353;
-=======
-  color: #a4a4a4;
->>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
 }
 .lead {
   margin-bottom: 20px;
@@ -638,6 +636,7 @@ blockquote {
   font-size: 17.5px;
   border-left: 1px solid #a4a4a4;
   color: #a4a4a4;
+  /* font-weight: 200; */
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -760,15 +759,9 @@ pre code {
 }
 .container-fluid {
   margin-right: 0;
-<<<<<<< HEAD
   margin-left: 0;
   padding-left: 15px;
   padding-right: 15px;
-=======
-  /* margin-left: 0; */
-  /* padding-left: 15px; */
-  /* padding-right: 15px; */
->>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
 }
 .row {
   margin-left: -15px;
@@ -2005,11 +1998,7 @@ select[multiple].input-lg {
 .btn {
   display: inline-block;
   margin-bottom: 0;
-<<<<<<< HEAD
   font-weight: bold;
-=======
-  font-weight: lighter;
->>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
@@ -2021,11 +2010,7 @@ select[multiple].input-lg {
   font-size: 14px;
   line-height: 1.428571429;
   border-radius: 4px;
-<<<<<<< HEAD
   letter-spacing: 2px;
-=======
-  letter-spacing: 3px;
->>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -2112,11 +2097,7 @@ fieldset[disabled] .btn-default.active {
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
   background-color: #f10632;
-<<<<<<< HEAD
   border: 2px solid #FA2541;
-=======
-  border-color: #c40428;
->>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -2344,13 +2325,8 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-lg,
 .btn-group-lg > .btn {
-<<<<<<< HEAD
   padding: 16px 40px;
   font-size: 14px;
-=======
-  padding: 10px 16px;
-  font-size: 18px;
->>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
   line-height: 1.33;
   border-radius: 6px;
 }
