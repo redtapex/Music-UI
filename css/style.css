@@ -1,4 +1,5 @@
 .ytplayer, .youtube-player {
+<<<<<<< HEAD
   padding: 0; 
    margin-bottom: -6px; 
 }
@@ -29,6 +30,10 @@
   height: 100%;
 
 
+=======
+  padding: 0;
+  margin-bottom: -6px;
+>>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
 }
 .text-padding {
   padding: 40px;
@@ -51,11 +56,18 @@
 .white input {
   color:#d3d3d3;
   background: transparent;
+<<<<<<< HEAD
   /* background-color: transparent; */
 }
 .white .btn-default {
   border: 2px solid #000;
   color: #000;
+=======
+}
+.white .btn-default {
+  border: 2px solid #000;
+  color: #000
+>>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
 }
 .btn-hover {
   color:#000;
@@ -66,6 +78,7 @@
   background: transparent;
   border: 2px solid rgb(192, 192, 192);
 }
+<<<<<<< HEAD
 .white  .btn-hover, .white .btn-default:hover  {
   color:#fff;
   background: #000;
@@ -75,6 +88,12 @@
   color:#000;
   background: transparent;
   border: 2px solid #000;
+=======
+.white  .btn-hover:hover {
+  color:rgb(192, 192, 192);
+  background: transparent;
+  border: 2px solid rgb(192, 192, 192);
+>>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
 }
 .itunes_buy {
     position: absolute;
@@ -100,10 +119,13 @@ text-align: center;
 width: 100%;
   text-shadow: 2px 3px 6px rgba(0,0,0,0.6);
 }
+<<<<<<< HEAD
 .forms {
     /* background: linear-gradient(to left, #fff 50%, #171717 50%); */
   
 }
+=======
+>>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
 .form, form {
   padding-top: 40px;
 }
@@ -122,5 +144,11 @@ transition: color 0.25s linear;
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1800px) { 
+<<<<<<< HEAD
   
+=======
+  .sc .soundcloud, .youtube-player {
+    height: 862px;
+  }
+>>>>>>> 18c2ccf7cf02fed3b05ece6df48c8f423465238b
 }
