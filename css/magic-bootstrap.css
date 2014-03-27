@@ -1667,6 +1667,8 @@ input[type="checkbox"] {
   line-height: normal;
   background-color: #171717;
 
+  background-color: #d3d3d3;
+  border: none !important;
 }
 input[type="file"] {
   display: block;
@@ -1765,6 +1767,7 @@ input[type="date"] {
 .checkbox-inline input[type="checkbox"] {
   float: left;
   margin-left: -20px;
+  /* border: none !important; */
 }
 .radio + .radio,
 .checkbox + .checkbox {

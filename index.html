@@ -9,10 +9,21 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/yt.css" />
-	<link href="css/flat-ui.css" rel="stylesheet">
 	<link href="webfonts/ss-social.css" rel="stylesheet" />
 </head>
 <body>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=586414271439425";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 		<div class="jumbotron text-center">
 			<img src="http://devblog.parseapp.com/images/x_03.png">
 			<h1>Music UI kit</h1>
@@ -135,36 +146,41 @@
 								  <input type="text" class="form-control" id="inputSuccess1" placeholder="Darby@redtapedesign.com">
 								</div>
 								<div class="col-sm-6 col-md-1 col-lg-1">
-								    <label class="checkbox" for="checkbox1">
-							            <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
-							        </label>
-							        <label class="checkbox" for="checkbox2">
-							            <input type="checkbox" checked="checked" value="" id="checkbox2" data-toggle="checkbox" checked="">
-							        </label>
-							        <label class="checkbox" for="checkbox3">
-							            <input type="checkbox" value="" id="checkbox3" data-toggle="checkbox" disabled="">
-							        </label>
-							        <label class="checkbox" for="checkbox4">
-							            <input type="checkbox" checked="checked" value="" id="checkbox4" data-toggle="checkbox" disabled="" checked="">
-							        </label>
+									<!-- new checkbox -->
+									<div class="cboxb">
+										<input type="checkbox" id="c1" name="cc" />
+										<label for="c1"><span></span></label>
+									</div>
+									<div class="cboxb">
+										<input type="checkbox" id="c2" name="cc" checked="checked" />
+										<label for="c2"><span></span></label>
+									</div>
+									<div class="cboxb">
+										<input type="checkbox" id="c3" name="cc" disabled="disabled"/>
+										<label for="c3"><span></span></label>
+									</div>
+									<div class="cboxb">
+										<input type="checkbox" id="c4" name="cc" disabled="disabled" checked="checked"/>
+										<label for="c4"><span></span></label>
+									</div>
 							    </div>
 							    <div class="col-sm-6 col-md-6 col-lg-8">
-								    <label class="radio">
-							            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">
-							            Unchecked
-							        </label>
-							        <label class="radio">
-							            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" data-toggle="radio" checked="">
-							            Checked
-							        </label>
-									<label class="radio">
-							            <input type="radio" name="optionsRadiosDisabled" id="optionsRadios3" value="option2" data-toggle="radio" disabled="">
-							           Disabled & Unchecked
-							        </label>
-							        <label class="radio">
-							            <input type="radio" name="optionsRadiosDisabled" id="optionsRadios4" value="option2" data-toggle="radio" checked="" disabled="">
-							            Disabled & Checked
-							        </label>
+							        <div class="rboxb">
+										<input type="radio" id="r1" name="rr" />
+										<label for="r1"><span></span>Unchecked</label>
+									</div>
+									<div class="rboxb">
+										<input type="radio" id="r2" name="rr" checked="checked"/>
+										<label for="r2"><span></span>Checked</label>
+									</div>
+									<div class="rboxb">
+										<input type="radio" id="r3" name="rr" disabled="disabled" />
+										<label for="r3"><span></span>Disabled & Unchecked</label>
+									</div>
+									<div class="rboxb">
+										<input type="radio" id="r4" name="rr"  disabled/>
+										<label for="r4"><span></span>Disabled & Checked</label>
+									</div>
 							    </div>
 								<button type="submit" class="btn btn-default btn-lg pull-right">SIGN ME UP</button>
 		  					</form>
@@ -203,46 +219,71 @@
 								  <input type="text" class="form-control" id="inputSuccess1" placeholder="Darby@redtapedesign.com">
 								</div>
 								<div class="col-sm-6 col-md-1 col-lg-1">
-								    <label class="checkbox" for="checkbox1">
-							            <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
-							        </label>
-							        <label class="checkbox" for="checkbox2">
-							            <input type="checkbox" checked="checked" value="" id="checkbox2" data-toggle="checkbox" checked="">
-							        </label>
-							        <label class="checkbox" for="checkbox3">
-							            <input type="checkbox" value="" id="checkbox3" data-toggle="checkbox" disabled="">
-							        </label>
-							        <label class="checkbox" for="checkbox4">
-							            <input type="checkbox" checked="checked" value="" id="checkbox4" data-toggle="checkbox" disabled="" checked="">
-							        </label>
+									<!-- new checkbox -->
+									<div class="cbox">
+										<input type="checkbox" id="c1" name="cc" />
+										<label for="c1"><span></span></label>
+									</div>
+									<div class="cbox">
+										<input type="checkbox" id="c2" name="cc" checked="checked" />
+										<label for="c2"><span></span></label>
+									</div>
+									<div class="cbox">
+										<input type="checkbox" id="c3" name="cc" disabled="disabled"/>
+										<label for="c3"><span></span></label>
+									</div>
+									<div class="cbox">
+										<input type="checkbox" id="c4" name="cc" disabled="disabled" checked="checked"/>
+										<label for="c4"><span></span></label>
+									</div>
 							    </div>
 							    <div class="col-sm-6 col-md-6 col-lg-8">
-								    <label class="radio">
-							            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" data-toggle="radio">
-							            Unchecked
-							        </label>
-							        <label class="radio">
-							            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1" data-toggle="radio" checked="">
-							            Checked
-							        </label>
-									<label class="radio">
-							            <input type="radio" name="optionsRadiosDisabled" id="optionsRadios3" value="option2" data-toggle="radio" disabled="">
-							           Disabled & Unchecked
-							        </label>
-							        <label class="radio">
-							            <input type="radio" name="optionsRadiosDisabled" id="optionsRadios4" value="option2" data-toggle="radio" checked="" disabled="">
-							            Disabled & Checked
-							        </label>
+							        <div class="rbox">
+										<input type="radio" id="r1" name="rr" />
+										<label for="r1"><span></span>Unchecked</label>
+									</div>
+									<div class="rbox">
+										<input type="radio" id="r2" name="rr" checked="checked"/>
+										<label for="r2"><span></span>Checked</label>
+									</div>
+									<div class="rbox">
+										<input type="radio" id="r3" name="rr" disabled="disabled" />
+										<label for="r3"><span></span>Disabled & Unchecked</label>
+									</div>
+									<div class="rbox">
+										<input type="radio" id="r4" name="rr"  disabled/>
+										<label for="r4"><span></span>Disabled & Checked</label>
+									</div>
 							    </div>
 								<button type="submit" class="btn btn-default btn-lg pull-right">SIGN ME UP</button>
 		  					</form>
 		  				</div>
 		  			</div><!--end form container -->
-        	</div>
+        	</div><!--end row for form -->
+        	<div class="row">
+	        	<div class="container-fluid text-padding lightgray">
+	        		<div class="center-block text-center">
+	        			<a href="http://www.redtapex.com/" class="rxlogo">
+			              <img src="http://fuccyocms.parseapp.com/images/xlogo.png">
+			            </a>
+	        		</div>
+	        		  <div class="col-sm-5 col-md-6 col-lg-6 col-md-offset-3 col-md-offset-3 col-lg-offset-3 text-center">
+			            <h2><a href="http://creativecommons.org/licenses/by/4.0/deed.en_US" target="_blank">This demo is licensed under a CC 4.0. You are allowed to use these components anywhere you want, however we would highly appreciate if you'll show a link to our website.</a></h2>
 
+			            <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.1395870373.html#_=1395958087576&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=redtapedesign&amp;show_count=true&amp;show_screen_name=true&amp;size=m" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 247px; height: 20px;"></iframe>
+
+			            <iframe name="f2d77cb1bc" width="1000px" height="1000px" frameborder="0" allowtransparency="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/plugins/like.php?action=like&amp;app_id=586414271439425&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FwTH8U0osOYl.js%3Fversion%3D40%23cb%3Df288a350cc%26domain%3Dwww.redtapex.com%26origin%3Dhttp%253A%252F%252Fwww.redtapex.com%252Ff708a168%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fwww.facebook.com%2FRedTapeDesign&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=false" class="" style="border: none; visibility: visible; width: 79px; height: 20px;"></iframe>
+
+			            <iframe src="http://ghbtns.com/github-btn.html?user=redtapex&repo=Music-UI&type=watch&count=true"
+						  allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+
+						<iframe src="http://ghbtns.com/github-btn.html?user=redtapex&repo=Music-UI&type=fork&count=true"
+						allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+			        </div>
+
+	        	</div>
+	        </div>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/flatui-checkbox.js"></script>
-<script src="js/flatui-radio.js"></script>
 </body>
 </html>

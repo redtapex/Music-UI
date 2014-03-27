@@ -37,6 +37,10 @@
   background: #000;
   color: #fff;
 }
+.lightgray {
+  background: #f2f2f1;
+  color: #fff;
+}
 .black h1 {
   color: #fff;
   padding-bottom: 10px;
@@ -49,8 +53,8 @@
   color: #fff;
 }
 .white input {
-  color:#d3d3d3;
-  background: transparent;
+  /* color: #d3d3d3; */
+  /* background: transparent; */
   /* background-color: transparent; */
 }
 .white .btn-default {
@@ -110,15 +114,96 @@ width: 100%;
 .form .btn  {
   margin-bottom: 20px;
 }
-.white .checkbox .icons, .white .radio .icons, .white .checkbox.disabled .icons, .white .radio.disabled .icons, .white .checkbox.disabled.checked .second-icon, .white .radio.disabled.checked .second-icon, .white .checkbox {
-  color: #dcdcdc;
+
+
+/* custom checkbox */
+.cbox input[type="checkbox"],.rbox input[type="radio"], .cboxb input[type="checkbox"],.rboxb input[type="radio"] {
+    display:none;
+    
 }
-.white .checkbox.checked .second-icon, .white .radio.checked .second-icon, .white .checkbox.disabled, .white .radio.disabled, .white .checkbox.checked, .white .radio.checked, .white .radio {
-opacity: 1;
-filter: alpha(opacity=100);
-color: #000;
--webkit-transition: color 0.25s linear;
-transition: color 0.25s linear;
+.cbox input[type="checkbox"] + label span {
+    display:inline-block;
+    width: 21px;
+    height: 21px;
+    vertical-align:middle;
+    background:url(../images/ui-basev2-code_03.jpg) no-repeat;
+    cursor:pointer;
+}
+.cbox input[type="checkbox"]:checked + label span {
+    background: url(../images/ui-basev2-code_03.jpg) no-repeat;
+    background-position: 0px -33px;
+}
+.cbox input[type="checkbox"]:disabled:checked + label span {
+    background: url(../images/ui-basev2-code_03.jpg) no-repeat;
+    background-position: 0px -100px;
+}
+.rbox input[type="radio"] + label span {
+    display:inline-block;
+    width: 21px;
+    height: 21px;
+    vertical-align:middle;
+    background:url(../images/ui-basev2-code_05.jpg) no-repeat;
+    cursor:pointer;
+}
+.rbox input[type="radio"]:checked + label span {
+    background: url(../images/ui-basev2-code_05.jpg) no-repeat;
+    background-position: 0px -33px;
+}
+.rbox input[type="radio"]#r4 + label span {
+    background: url(../images/ui-basev2-code_05.jpg) no-repeat;
+    background-position: 0px -99px;
+}
+.rbox span {
+  margin-right: 10px;
+}
+
+.cboxb input[type="checkbox"] + label span {
+    display:inline-block;
+    width: 21px;
+    height: 21px;
+    vertical-align:middle;
+    background:url(../images/ui-basev2-codeb_03.png) no-repeat;
+    cursor:pointer;
+}
+.cboxb input[type="checkbox"]:checked + label span {
+    background: url(../images/ui-basev2-codeb_03.png) no-repeat;
+    background-position: 0px -33px;
+}
+.cboxb input[type="checkbox"]:disabled:checked + label span {
+    background: url(../images/ui-basev2-codeb_03.png) no-repeat;
+    background-position: 0px -100px;
+}
+.rboxb input[type="radio"] + label span {
+    display:inline-block;
+    width: 21px;
+    height: 21px;
+    vertical-align:middle;
+    background:url(../images/ui-basev2-code4_05.png) no-repeat;
+    cursor:pointer;
+}
+.rboxb input[type="radio"]:checked + label span {
+    background: url(../images/ui-basev2-code4_05.png) no-repeat;
+    background-position: 0px -99px;
+}
+.rboxb input[type="radio"]#r4 + label span {
+    background: url(../images/ui-basev2-code4_05.png) no-repeat;
+    background-position: 0px -33px;
+}
+.rboxb span {
+  margin-right: 10px;
+}
+.lightgray h2 {
+  font-size: 28px;
+font-weight: bold;
+margin-bottom: 70px;
+letter-spacing: -1px;
+color: #303336;
+line-height: 40px;
+}
+.lightgray h2 a{
+  color: #303336;
+border-bottom: 1px solid #cbcbcb;
+text-decoration: none;
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1800px) { 
