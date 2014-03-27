@@ -206,7 +206,9 @@ line-height: 40px;
 border-bottom: 1px solid #cbcbcb;
 text-decoration: none;
 }
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1800px) { 
-  
+
+@media (max-width: 480px) { 
+  .btn-default {
+    margin-top: 10px;
+  }
 }
