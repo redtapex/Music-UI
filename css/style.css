@@ -149,7 +149,7 @@ width: 100%;
     background: url(../images/ui-basev2-code_05.jpg) no-repeat;
     background-position: 0px -33px;
 }
-.rbox input[type="radio"]#r4 + label span {
+.rbox input[type="radio"]#r8 + label span {
     background: url(../images/ui-basev2-code_05.jpg) no-repeat;
     background-position: 0px -99px;
 }
