@@ -64,6 +64,7 @@
 .btn-hover {
   color:#000;
   border: 2px solid rgb(192, 192, 192);
+  background: rgb(192, 192, 192);
 }
 .btn-hover:hover {
   color:#fff;
