@@ -121,6 +121,7 @@ width: 100%;
 #inputSuccess1 {
   margin-bottom: 55px;
 }
+label { cursor: pointer; }
 .cbox input[type="checkbox"],.rbox input[type="radio"], .cboxb input[type="checkbox"],.rboxb input[type="radio"] {
     display:none;
     
