@@ -215,4 +215,7 @@ text-decoration: none;
   .rbox label, .rboxb label {
       font-size: 12px;
   }
+  .gray {
+    padding-bottom: 60px;
+  }
 }
