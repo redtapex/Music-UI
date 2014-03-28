@@ -213,6 +213,6 @@ text-decoration: none;
     margin-left: 5px;
   }
   .rbox label, .rboxb label {
-     display: hidden;
+      font-size: 12px;
   }
 }
