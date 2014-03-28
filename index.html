@@ -27,6 +27,10 @@
 			<img src="http://devblog.parseapp.com/images/x_03.png">
 			<h1>Music UI kit</h1>
 			<p>Free Musicians Website User Interface Kit <a href="http://redtapedesign.com/" target="_Blank">&copyRedTapeDesign</a></p>
+	 
+      
+      <a id="toggle" href="#"type="button" ><div class="patty"></div></a>
+      
 		</div>
 			<div class="container-fluid">
 				<div class="row">
@@ -219,38 +223,23 @@
 								</div>
 								<div class="col-xs-2 col-md-1 col-lg-1">
 									<!-- new checkbox -->
-									<div class="wrapper">
-    <ul>
-        <li>
-            <p>Gender:</p>
-        </li>
-        <li>
-            <input type="radio" name="radio-btn" />Male</li>
-        <li>
-            <input type="radio" name="radio-btn" />Female</li>
-    </ul>
-    <ul>
-        <li>
-            <p>Favorite music:</p>
-        </li>
-        <li>
-            <input type="checkbox" name="check-box" /> <span>Pop music</span>
+									<div class="cbox" onclick="">
+										<input type="checkbox" id="c5" name="cc" />
+										<label for="c5" onclick=""><span></span></label>
+									</div>
 
-        </li>
-        <li>
-            <input type="checkbox" name="check-box" /> <span>Rock music</span>
-
-        </li>
-        <li>
-            <input type="checkbox" name="check-box" /> <span>Rap music</span>
-
-        </li>
-        <li>
-            <input type="checkbox" name="check-box" /> <span>Hiphop music</span>
-
-        </li>
-    </ul>
-</div>
+									<div class="cbox">
+										<input type="checkbox" id="c6" name="cc" checked="checked" />
+										<label for="c6"><span></span></label>
+									</div>
+									<div class="cbox">
+										<input type="checkbox" id="c7" name="cc" disabled="disabled"/>
+										<label for="c7"><span></span></label>
+									</div>
+									<div class="cbox">
+										<input type="checkbox" id="c8" name="cc" disabled="disabled" checked="checked"/>
+										<label for="c8"><span></span></label>
+									</div>
 							    </div>
 							    <div class=" col-md-6 col-lg-8">
 							        <div class="rbox">
@@ -298,33 +287,23 @@
 
 	        	</div>
 	        </div>
+	        <!-- open/close -->
+		<div class="overlay overlay-hugeinc">
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script type="text/javascript">
-	$(document).ready(function () {
- 	/*
-	Custom checkbox and radio button - Jun 18, 2013
-	(c) 2013 @ElmahdiMahmoud 
-	license: http://www.opensource.org/licenses/mit-license.php
-*/   
-$('input[name="radio-btn"]').wrap('<div class="radio-btn"><i></i></div>');
-$(".radio-btn").on('click', function () {
-    var _this = $(this),
-        block = _this.parent().parent();
-    block.find('input:radio').attr('checked', false);
-    block.find(".radio-btn").removeClass('checkedRadio');
-    _this.addClass('checkedRadio');
-    _this.find('input:radio').attr('checked', true);
-});
-$('input[name="check-box"]').wrap('<div class="check-box"><i></i></div>');
-$.fn.toggleCheckbox = function () {
-    this.attr('checked', !this.attr('checked'));
-}
-$('.check-box').on('click', function () {
-    $(this).find(':checkbox').toggleCheckbox();
-    $(this).toggleClass('checkedBox');
-});
-});
-</script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/demo.js"></script>
 </body>
 </html>
