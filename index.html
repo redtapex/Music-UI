@@ -285,5 +285,15 @@
 	        </div>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	$( document ).ready(function() {
+    console.log( "ready!" );
+    if (navigator.userAgent.match(/iPhone/i) || 
+		navigator.userAgent.match(/iPod/i) || 
+		navigator.userAgent.match(/iPad/i)) {
+		iPadLabels.fix();
+}
+});
+</script>
 </body>
 </html>
