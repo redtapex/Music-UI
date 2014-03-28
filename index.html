@@ -221,9 +221,10 @@
 									<!-- new checkbox -->
 									<div class="cbox" onclick="">
 										<input type="checkbox" id="c5" name="cc" />
-										<label for="c5" onclick=""><span></span>yo</label>
+										<label for="c5" onclick=""><span></span></label>
 									</div>
-									<input type="checkbox" id="" name="cc" />
+									<input type="radio" name="radio-btn" />
+									 <input type="checkbox" name="check-box" />
 									<div class="cbox">
 										<input type="checkbox" id="c6" name="cc" checked="checked" />
 										<label for="c6"><span></span></label>
@@ -287,7 +288,28 @@
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript">
 	$(document).ready(function () {
- 	$('#c5').live('click', onc5Clicked);
+ 	/*
+	Custom checkbox and radio button - Jun 18, 2013
+	(c) 2013 @ElmahdiMahmoud 
+	license: http://www.opensource.org/licenses/mit-license.php
+*/   
+$('input[name="radio-btn"]').wrap('<div class="radio-btn"><i></i></div>');
+$(".radio-btn").on('click', function () {
+    var _this = $(this),
+        block = _this.parent().parent();
+    block.find('input:radio').attr('checked', false);
+    block.find(".radio-btn").removeClass('checkedRadio');
+    _this.addClass('checkedRadio');
+    _this.find('input:radio').attr('checked', true);
+});
+$('input[name="check-box"]').wrap('<div class="check-box"><i></i></div>');
+$.fn.toggleCheckbox = function () {
+    this.attr('checked', !this.attr('checked'));
+}
+$('.check-box').on('click', function () {
+    $(this).find(':checkbox').toggleCheckbox();
+    $(this).toggleClass('checkedBox');
+});
 });
 </script>
 </body>
