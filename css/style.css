@@ -118,6 +118,9 @@ width: 100%;
 
 
 /* custom checkbox */
+#inputSuccess1 {
+  margin-bottom: 55px;
+}
 .cbox input[type="checkbox"],.rbox input[type="radio"], .cboxb input[type="checkbox"],.rboxb input[type="radio"] {
     display:none;
     
