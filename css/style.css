@@ -504,4 +504,7 @@ top: 37px;
   .gray {
     padding-bottom: 60px;
   }
+  .wrapper-with-intrinsic-ratio{
+    height: 249px;
+  }
 }
