@@ -529,3 +529,11 @@ top: 37px;
     height: 400px;
   }
 }
+@media (max-width: 990px) { 
+  .wrapper-with-intrinsic-ratio{
+    height: 249px;
+  }
+  .sc {
+    height: 400px;
+  }
+}
