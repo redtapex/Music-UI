@@ -2000,7 +2000,7 @@ select[multiple].input-lg {
 }
 .btn {
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
