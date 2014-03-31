@@ -511,3 +511,21 @@ top: 37px;
     height: 400px;
   }
 }
+@media (max-width: 480px) { 
+  .btn-default {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .rbox label, .rboxb label {
+      font-size: 9px;
+  }
+  .gray {
+    padding-bottom: 60px;
+  }
+  .wrapper-with-intrinsic-ratio{
+    height: 249px;
+  }
+  .sc {
+    height: 400px;
+  }
+}
