@@ -507,4 +507,7 @@ top: 37px;
   .wrapper-with-intrinsic-ratio{
     height: 249px;
   }
+  .sc {
+    height: 400px;
+  }
 }
