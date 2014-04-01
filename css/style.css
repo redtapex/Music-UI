@@ -108,6 +108,17 @@ text-align: center;
 width: 100%;
   text-shadow: 2px 3px 6px rgba(0,0,0,0.6);
 }
+/* shirt module */
+.shirt_buy {
+    position: absolute;
+    bottom: 0px;; /* FF3.6+ */  
+    padding-bottom: 20px;
+    padding-top: 63px;
+    padding-left: 12px; 
+}
+.shirt_buy .glyphicon {
+  padding-right: 10px;
+}
 .forms {
     /* background: linear-gradient(to left, #fff 50%, #171717 50%); */
   
