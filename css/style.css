@@ -336,6 +336,9 @@ float: left;
 line-height: 33px;
 
 }
+.invite-form button {
+  margin-left: 20px;
+}
 /* tour */
 th {
   
