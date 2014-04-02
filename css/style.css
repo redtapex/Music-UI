@@ -454,6 +454,29 @@ footer .navbar-brand {
 footer p {
   margin-top: 10px;
 }
+
+
+/* blog singles */
+h5.post-share {
+  color:  #999999;
+}
+.post-social {
+ 
+}
+.post-social li {
+  list-style-type: none;
+  display: inline;
+  float: left;
+}
+#fb.ss-icon {
+  color: #3C5B97 !important;
+}
+#tw.ss-icon {
+  color: #61ABDE !important;
+}
+#gg.ss-icon {
+  color: #DC4D40 !important;
+}
 /* Overlay style */
 .overlay {
   position: fixed;
@@ -515,7 +538,7 @@ footer p {
   
 
   font-family: Hammersmith One, sans-serif;
-  /* font-weight: lighter; */
+  
 }
 .overlay ul li:hover {
 
