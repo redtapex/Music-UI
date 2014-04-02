@@ -637,9 +637,13 @@ top: 37px;
   .sc {
     height: 400px;
   }
-  .shop h2, .shop img {
-    margin-bottom: 20px;
+  .shop img {
+    margin-bottom: 50px;
+    margin-top: 10px;
   }
+  .invite-form button {
+  margin-left: 0px;
+}
 }
 @media (max-width: 480px) { 
   .btn-default {
