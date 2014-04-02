@@ -650,6 +650,15 @@ top: 37px;
   .nogo {
     background: url(../images/xlogo.png) 18% no-repeat;
   }
+  .ss-icon {
+    margin: 5px;
+  }
+  footer .navbar-brand {
+    margin-left: 50px;
+  }
+  footer p {
+    margin-top: 40px;
+  }
 }
 @media (max-width: 480px) { 
   .btn-default {
