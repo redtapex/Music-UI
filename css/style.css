@@ -643,7 +643,10 @@ top: 37px;
   }
   .invite-form button {
   margin-left: 0px;
-}
+  }
+  .invite-form .btn-lg {
+  padding: 20px 20px;
+  }
 }
 @media (max-width: 480px) { 
   .btn-default {
