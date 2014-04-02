@@ -647,6 +647,9 @@ top: 37px;
   .invite-form .btn-lg {
   padding: 20px 20px;
   }
+  .nogo {
+    background: url(../images/xlogo.png) 18% no-repeat;
+  }
 }
 @media (max-width: 480px) { 
   .btn-default {
