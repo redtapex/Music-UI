@@ -33,6 +33,9 @@
 .text-padding {
   padding: 40px;
 }
+.spacing {
+  margin-bottom: 40px;
+}
 .no-margin {
   margin:0;
 }
@@ -109,15 +112,34 @@ width: 100%;
   text-shadow: 2px 3px 6px rgba(0,0,0,0.6);
 }
 /* shirt module */
+.shop h2{
+  position: absolute;
+top: 10px;
+color: #000;
+text-transform: uppercase;
+text-align: center;
+width: 100%
+}
 .shirt_buy {
     position: absolute;
-    bottom: 0px;; /* FF3.6+ */  
-    padding-bottom: 20px;
-    padding-top: 63px;
-    padding-left: 12px; 
+    bottom: 10px;
+}
+.shirt_buy button {
+  padding: 8px 10px;
 }
 .shirt_buy .glyphicon {
   padding-right: 10px;
+}
+.ss-icon {
+color: #fff !important;
+font-size: 32px;
+margin: 15px;
+}
+button.insta {
+  padding: 10px 15px;
+}
+i.insta {
+  font-size: 22px;
 }
 .forms {
     /* background: linear-gradient(to left, #fff 50%, #171717 50%); */
@@ -350,6 +372,11 @@ line-height: 33px;
 .invite-form button {
   margin-left: 20px;
 }
+/* blog w pic */
+.xp {
+  float: left;
+  margin-right: 10px;
+}
 /* tour */
 th {
   
@@ -363,6 +390,66 @@ th {
 }
 .table caption {
   font-size: 50px;
+}
+/* center-menu */
+.nogo {
+  background: url(../images/xlogo.png) 40% no-repeat;
+  padding: 38px 131px 45px;
+  text-indent:-9999px;
+  display:inline-block;
+  margin: 0px 24px; 
+  
+}
+.cutleft {
+  margin-left:0px!important;
+}
+nav {
+  text-align:center;
+}
+
+#menu-main-menu {
+  text-align:center;
+  text-transform:uppercase;
+  color: #999999;
+  font-size: 18px;
+    
+}
+#menu-main-menu > li{
+  display:inline-block;
+  position:relative;
+  padding:12px;
+  vertical-align:-90%;
+  font-size:0.9em;
+}
+#menu-main-menu > li:nth-child(4){
+  margin-top:0px;
+}
+#menu-main-menu > li > a{
+  color:#fff;
+  letter-spacing: .2em;
+
+  -webkit-transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+       -o-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
+}
+
+#menu-main-menu > li > a:hover,
+#menu-main-menu > li > a:focus,
+#menu-main-menu > li > a:active {
+  color:#FA2541!important;
+}
+.socials a:hover {
+  text-decoration: none;
+}
+.socials i.ss-icon:hover {
+  color:#FA2541!important;
+}
+footer {
+  padding: 14px;
+}
+footer .navbar-brand {
+  margin-top: -14px;
 }
 /* Overlay style */
 .overlay {

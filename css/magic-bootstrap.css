@@ -5644,6 +5644,7 @@ button.close {
 }
 .pull-right {
   float: right !important;
+  /* z-index: 2000; */
 }
 .pull-left {
   float: left !important;
