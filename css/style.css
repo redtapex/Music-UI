@@ -661,6 +661,8 @@ top: 37px;
   }
   table caption {
     text-align:left;
+    padding-left: 35px;
+    padding-top:10px;
   }
 }
 @media (max-width: 480px) { 
