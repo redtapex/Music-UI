@@ -637,6 +637,9 @@ top: 37px;
   .sc {
     height: 400px;
   }
+  .shop h2, .shop img {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 480px) { 
   .btn-default {
@@ -654,9 +657,6 @@ top: 37px;
   }
   .sc {
     height: 400px;
-  }
-  .shop h2, .shop img {
-    margin-bottom: 20px;
   }
 }
 @media (max-width: 990px) { 
