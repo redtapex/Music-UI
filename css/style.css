@@ -451,6 +451,9 @@ footer {
 footer .navbar-brand {
   margin-top: -14px;
 }
+footer p {
+  margin-top: 10px;
+}
 /* Overlay style */
 .overlay {
   position: fixed;
