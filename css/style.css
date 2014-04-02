@@ -125,7 +125,7 @@ width: 100%
     bottom: 10px;
 }
 .shirt_buy button {
-  padding: 8px 10px;
+  /* padding: 8px 10px; */
 }
 .shirt_buy .glyphicon {
   padding-right: 10px;
@@ -658,6 +658,9 @@ top: 37px;
   }
   footer p {
     margin-top: 40px;
+  }
+  table caption {
+    text-align:left;
   }
 }
 @media (max-width: 480px) { 
