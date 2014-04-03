@@ -477,6 +477,45 @@ h5.post-share {
 #gg.ss-icon {
   color: #DC4D40 !important;
 }
+.post-social a:hover {
+  text-decoration: none;
+}
+/* product page */
+select {
+width: 240px;
+height: 34px;
+overflow: hidden;
+background: url(../images/downarrow.png) no-repeat 228px 10px #fff;
+border: 1px solid #ccc;
+ackground: transparent;
+width: 268px;
+padding: 5px;
+font-size: 16px;
+border-radius: 0;
+height: 43px;
+-webkit-appearance: none;
+background-size: 22px;
+}
+.selectsite {
+  background-color: #eee;
+  border: 1px solid #e1e1e1;
+}
+.btn-buy {
+color: #ffffff;
+background-color: #91BD3E;
+border: 2px solid #91BD3E;
+}
+.cart a img {
+  margin-bottom: 12px;
+}
+.product img:hover {
+  -webkit-border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
 /* Overlay style */
 .overlay {
   position: fixed;
