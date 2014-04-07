@@ -163,7 +163,9 @@ width: 9.6%;
 -o-transition: all 0.5s ease-in-out;
 transition: all 0.5s ease-in-out;
 }
-
+.gram h3  {
+  line-height: 3;
+}
 /* custom checkbox */
 
 .radio-btn input[type="radio"], .check-box input[type="checkbox"] {
