@@ -740,6 +740,9 @@ top: 37px;
   .itunes {
     padding: 0;
   }
+  .instagram-placeholder {
+    width: 100%;
+  }
 }
 @media (max-width: 480px) { 
   .btn-default {
@@ -760,6 +763,9 @@ top: 37px;
   }
   .itunes {
     padding: 0;
+  }
+  .instagram-placeholder {
+    width: 100%;
   }
 }
 @media (max-width: 990px) { 
