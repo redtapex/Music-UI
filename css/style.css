@@ -151,7 +151,18 @@ i.insta {
 .form .btn  {
   margin-bottom: 20px;
 }
+/* instagram feed */
+.instagram-placeholder {
+  float: left;
+opacity: .5;
 
+  margin: 5px 2px 0px 2px;
+width: 9.6%;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
 
 /* custom checkbox */
 
@@ -346,14 +357,14 @@ line-height: 40px;
 border-bottom: 1px solid #cbcbcb;
 text-decoration: none;
 }
-/* buy single hero */
+/* buy single heros */
 .sc-text {
 padding-top: 10%;
 }
 .sc-text h1 {
 color: #fff;
 }
-.post-sc {
+.post-single {
 background: #000;
 margin-bottom: 0;
 margin-top: -7px;
@@ -726,6 +737,9 @@ top: 37px;
     padding-left: 35px;
     padding-top:10px;
   }
+  .itunes {
+    padding: 0;
+  }
 }
 @media (max-width: 480px) { 
   .btn-default {
@@ -743,6 +757,9 @@ top: 37px;
   }
   .sc {
     height: 400px;
+  }
+  .itunes {
+    padding: 0;
   }
 }
 @media (max-width: 990px) { 
