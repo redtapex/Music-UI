@@ -743,6 +743,9 @@ top: 37px;
   .instagram-placeholder {
     width: 100%;
   }
+  .ui-v2 {
+    margin-top: -10px;
+  }
 }
 @media (max-width: 480px) { 
   .btn-default {
@@ -766,6 +769,9 @@ top: 37px;
   }
   .instagram-placeholder {
     width: 100%;
+  }
+  .ui-v2 {
+    margin-top: -10px;
   }
 }
 @media (max-width: 990px) { 
