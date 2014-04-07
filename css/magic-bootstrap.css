@@ -5667,8 +5667,8 @@ button.close {
   border: 0;
 }
 .hidden {
-  display: none !important;
-  visibility: hidden !important;
+  /* display: none !important; */
+  /* visibility: hidden !important; */
 }
 .affix {
   position: fixed;
