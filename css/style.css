@@ -21,7 +21,7 @@
   padding-bottom: 33.3%;
   height: 0;
 }
-.youtube-player, .soundcloud {
+.youtube-player, .soundcloud, .embeds {
   position: absolute;
   top: 0;
   left: 0;
