@@ -120,14 +120,14 @@ text-transform: uppercase;
 text-align: center;
 width: 100%
 }
-.shirt_buy {
+.buy {
     position: absolute;
     bottom: 10px;
 }
 .shirt_buy button {
   /* padding: 8px 10px; */
 }
-.shirt_buy .glyphicon {
+.buy .glyphicon {
   padding-right: 10px;
 }
 .ss-icon {
@@ -279,7 +279,7 @@ transition: all 0.5s ease-in-out;
     background-color: #898A8C;
 }
 
-#inputSuccess1 {
+#inputSuccess1, #inputSuccess2 {
   margin-bottom: 55px;
 }
 label { cursor: pointer; }
