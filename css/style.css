@@ -164,7 +164,19 @@ width: 9.6%;
 transition: all 0.5s ease-in-out;
 }
 .gram h3  {
-  
+
+}
+/* ak_music */
+.ak_music {
+  background: #d0d0d0 url(../images/ak_music.jpg) no-repeat top left;
+  height: 400px;
+  color: #E4143B;
+}
+#ak_music_logo {
+  padding-bottom: 27px;
+  background: url(../images/ak_logo_small.png) no-repeat center -322px;
+  height: 161px; 
+  margin-bottom: 20px;
 }
 /* custom checkbox */
 
@@ -751,6 +763,12 @@ top: 37px;
   .gram {
     padding-bottom: 20px;
   }
+  .ak_music {
+    background-position: 50% 0;
+  }
+  #ak_music_logo {
+    left: 55px;
+  }
 }
 @media (max-width: 480px) { 
   .btn-default {
@@ -780,6 +798,12 @@ top: 37px;
   }
   .gram {
     padding-bottom: 20px;
+  }
+  .ak_music {
+    background-position: 50% 0;
+  }
+  #ak_music_logo {
+    left: 55px;
   }
 }
 @media (max-width: 990px) { 
