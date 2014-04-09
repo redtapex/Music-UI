@@ -179,10 +179,17 @@ transition: all 0.5s ease-in-out;
   margin-bottom: 20px;
 }
 /* custom popover */
+.custom-popover {
+    top: 0; left: 0; 
+    position: absolute;
+    z-index: 1010; display: none; width: 350px; /* padding: 1px; */ text-align: left; background-color: #EBECED; background-clip: padding-box; /* border: 1px solid #cccccc; */ /* border: 1px solid #fa254d; */ border-radius: 6px; -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); white-space: normal;
+
+}
 .btn-cart {
   position: absolute;
   top: 10px;
-  left: 33%;
+  right: 10px;
+  /* margin-top: 10px; */
   /* float: right; */
   color:#000;
   z-index: 1030;
@@ -212,7 +219,7 @@ transition: all 0.5s ease-in-out;
   margin: 0;
 }
 .popover .sizes {
-  background: #EBECED;
+  background: #EBECEF;
   padding: 15px 10px 1px 10px;
 }
 .popover .sizes p {

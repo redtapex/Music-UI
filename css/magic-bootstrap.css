@@ -2372,6 +2372,7 @@ input[type="button"].btn-block {
 }
 .fade.in {
   opacity: 1;
+  /* right: 20px; */
 }
 .collapse {
   display: none;
@@ -5320,9 +5321,10 @@ button.close {
 }
 .popover.bottom {
   margin-top: 15px;
+  /* margin-right: 100px; */
 }
 .popover.left {
-  margin-left: -10px;
+  margin-left: -20px;
 }
 .popover-title {
   margin: 0;
@@ -5386,7 +5388,7 @@ button.close {
   border-right-color: #fa254d;
 }
 .popover.bottom > .arrow {
-  left: 50%;
+  left: 93%;
   margin-left: -11px;
   border-top-width: 0;
   border-bottom-color: #999999;
@@ -5406,13 +5408,13 @@ button.close {
   margin-top: -11px;
   border-right-width: 0;
   border-left-color: #999999;
-  border-left-color: rgba(0, 0, 0, 0.25);
+  border-left-color: #EBECEF;
 }
 .popover.left > .arrow:after {
   content: " ";
   right: 1px;
   border-right-width: 0;
-  border-left-color: #fa254d;
+  border-left-color: #EBECEF;
   bottom: -10px;
 }
 .carousel {
