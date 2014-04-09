@@ -178,6 +178,50 @@ transition: all 0.5s ease-in-out;
   height: 161px; 
   margin-bottom: 20px;
 }
+/* custom popover */
+.btn-cart {
+  position: absolute;
+  top: 10px;
+  left: 33%;
+  /* float: right; */
+  color:#000;
+  z-index: 1030;
+  border: 2px solid #EBECED;
+  background: #EBECED;
+}
+.btn-cart span.items {
+  background: #fa254d;
+  color: #fff;
+  border-radius: 2px;
+  padding: 2px 2px 2px 5px;
+}
+.popover .popover-content {
+  padding: 2px;
+  /* background: #EBECED; */
+}
+.popover .total {
+  background: #CCCFD1;
+  padding: 10px;
+}
+.popover .total h4.left {
+  display: inline;
+}
+.popover .total h4.right {
+  display: inline;
+  float: right;
+  margin: 0;
+}
+.popover .sizes {
+  background: #EBECED;
+  padding: 15px 10px 1px 10px;
+}
+.popover .sizes p {
+  color: #000;
+}
+.popover .sizes input {
+  width: 35px;
+  margin: 0px 5px 0px 5px;
+}
 /* custom checkbox */
 
 .radio-btn input[type="radio"], .check-box input[type="checkbox"] {

@@ -238,10 +238,11 @@
 	        			</div>
 	        		</div>
 	        		<div class="col-sm-12 col-md-4 col-lg-4 text-center white">
+	        			<button type="button" class="btn btn-cart btn-sm" data-container="body" data-toggle="popover" data-placement="bottom" data-title="purcha$e" data-content=""><span class="glyphicon glyphicon-shopping-cart"></span> YOUR BAG <span class="items">3</span></button>
 	        			<img alt="..." width="100%"  src="images/sweater.png">
 	        			<h2>ANNUIT 5 GREY</h2>
 	        			<div class="buy col-xs-12  col-sm-12 col-md-12 col-lg-12 text-center">
-	        				<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span>BUY NOW</button>&nbsp;
+	        				<button type="button" class="btn btn-primary" ><span class="glyphicon glyphicon-shopping-cart"></span>BUY NOW</button>&nbsp;
 	  						<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-right"></span>MORE</button>
 	        			</div>
 	        		</div>
@@ -771,6 +772,7 @@
 		</div>
 <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
 <script src="js/classie.js"></script>
 <script src="js/demo.js"></script>
@@ -811,6 +813,8 @@ $(document).ready(function(){
     }); 
 
   }); 
+
+  $('[data-toggle="popover"]').popover({trigger: 'click','placement': 'bottom'});
 });
 </script>
 </body>
