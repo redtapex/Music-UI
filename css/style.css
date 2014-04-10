@@ -193,7 +193,7 @@ transition: all 0.5s ease-in-out;
 .popover.bottom > .arrow:after {
   content: " ";
   top: 1px;
-  margin-left: -14px;
+  margin-left: -10px;
   border-top-width: 0;
   border-bottom-color: #EBECED;
 }
@@ -895,7 +895,7 @@ top: 37px;
     left: 55px;
   }
   .custom-pop {
-    width: 350px;
+    width: 320px;
     margin-left: -122px;
   }
   .popover-title {
@@ -912,8 +912,8 @@ top: 37px;
   }
   .popover.bottom > .arrow:after {
   content: " ";
-  top: 1px;
-  margin-left: -14px;
+  /* top: 1px; */
+  margin-left: -10px;
   border-top-width: 0;
   border-bottom-color: #EBECED;
 }
