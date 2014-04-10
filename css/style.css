@@ -344,6 +344,9 @@ transition: all 0.5s ease-in-out;
   width: 35px;
   margin: 0px 5px 0px 5px;
 }
+.popover .sizes input.input2 {
+  margin: 0px 5px 0px 10px;
+}
 /* custom checkbox */
 
 .radio-btn input[type="radio"], .check-box input[type="checkbox"] {
@@ -954,13 +957,9 @@ top: 37px;
   text-align: center;
   color: #fff;
   }
-  .popover.bottom > .arrow:after {
-  content: " ";
-  top: 1px;
-  margin-left: -14px;
-  border-top-width: 0;
-  border-bottom-color: #EBECED;
-}
+  .popover .sizes p {
+  font-size: 12px;
+  }
 }
 @media (max-width: 480px) { 
   .btn-default {
@@ -1016,13 +1015,9 @@ top: 37px;
   text-align: center;
   color: #fff;
   }
-  .popover.bottom > .arrow:after {
-  content: " ";
-  /* top: 1px; */
-  margin-left: -10px;
-  border-top-width: 0;
-  border-bottom-color: #EBECED;
-}
+  .popover .sizes p {
+  font-size: 12px;
+  }
 }
 @media (max-width: 990px) { 
   .wrapper-with-intrinsic-ratio{
