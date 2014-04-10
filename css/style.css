@@ -182,6 +182,97 @@ transition: all 0.5s ease-in-out;
 .custom-pop {
     margin-left: -98px;
 }
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  display: none;
+  width: 350px;
+  /* padding: 1px; */
+  text-align: left;
+  background-color: #EBECED;
+  background-clip: padding-box;
+  /* border: 1px solid #cccccc; */
+  /* border: 1px solid #fa254d; */
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+}
+.popover.top {
+  margin-top: -10px;
+}
+.popover.right {
+  margin-left: 10px;
+}
+.popover.bottom {
+  margin-top: 15px;
+}
+.popover.left {
+  margin-left: -20px;
+}
+.popover-title {
+  margin: 0;
+  padding: 12px 14px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #fa254d;
+  border-bottom: 1px solid #f90c39;
+  border-radius:  0 0 5px 5px;
+  text-align: center;
+  color: #fff;
+}
+.popover-content {
+  padding: 9px 14px;
+}
+.popover > .arrow,
+.popover > .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.popover > .arrow {
+  border-width: 11px;
+}
+.popover > .arrow:after {
+  border-width: 10px;
+  content: "";
+}
+.popover.top > .arrow {
+  left: 50%;
+  margin-left: -11px;
+  border-bottom-width: 0;
+  border-top-color: #999999;
+  border-top-color: rgba(0, 0, 0, 0.25);
+  bottom: -11px;
+}
+.popover.top > .arrow:after {
+  content: " ";
+  bottom: 1px;
+  margin-left: -10px;
+  border-bottom-width: 0;
+  border-top-color: #fa254d;
+}
+.popover.right > .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-left-width: 0;
+  border-right-color: #999999;
+  border-right-color: rgba(0, 0, 0, 0.25);
+}
+.popover.right > .arrow:after {
+  content: " ";
+  left: 1px;
+  bottom: -10px;
+  border-left-width: 0;
+  border-right-color: #fa254d;
+}
 .popover.bottom > .arrow {
   left: 93%;
   margin-left: -11px;
@@ -196,6 +287,21 @@ transition: all 0.5s ease-in-out;
   margin-left: -10px;
   border-top-width: 0;
   border-bottom-color: #EBECED;
+}
+.popover.left > .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-right-width: 0;
+  border-left-color: #999999;
+  border-left-color: #EBECEF;
+}
+.popover.left > .arrow:after {
+  content: " ";
+  right: 1px;
+  border-right-width: 0;
+  border-left-color: #EBECEF;
+  bottom: -10px;
 }
 .btn-cart {
   position: absolute;
