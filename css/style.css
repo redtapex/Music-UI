@@ -772,6 +772,9 @@ top: 37px;
     margin-top: 10px;
     margin-left: 5px;
   }
+  .buy .btn-default {
+    margin-top: 0px;
+  }
   .rbox label, .rboxb label {
       font-size: 9px;
   }
@@ -857,6 +860,9 @@ top: 37px;
   .btn-default {
     margin-top: 10px;
     margin-left: 5px;
+  }
+  .buy .btn-default {
+    margin-top: 0px;
   }
   .rbox label, .rboxb label {
       font-size: 9px;
