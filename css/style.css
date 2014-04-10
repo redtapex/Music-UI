@@ -179,22 +179,28 @@ transition: all 0.5s ease-in-out;
   margin-bottom: 20px;
 }
 /* custom popover */
-.whatever-you-want {
-  
+.custom-pop {
     margin-left: -98px;
 }
-.custom-popover {
-    top: 0; left: 0; 
-    position: absolute;
-    z-index: 1010; display: none; width: 350px; /* padding: 1px; */ text-align: left; background-color: #EBECED; background-clip: padding-box; /* border: 1px solid #cccccc; */ /* border: 1px solid #fa254d; */ border-radius: 6px; -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); white-space: normal;
-
+.popover.bottom > .arrow {
+  left: 93%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999999;
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  top: -11px;
+}
+.popover.bottom > .arrow:after {
+  content: " ";
+  top: 1px;
+  margin-left: -14px;
+  border-top-width: 0;
+  border-bottom-color: #EBECED;
 }
 .btn-cart {
   position: absolute;
   top: 10px;
   right: 10px;
-  /* margin-top: 10px; */
-  /* float: right; */
   color:#000;
   z-index: 1030;
   border: 2px solid #EBECED;
@@ -208,7 +214,6 @@ transition: all 0.5s ease-in-out;
 }
 .popover .popover-content {
   padding: 2px;
-  /* background: #EBECED; */
 }
 .popover .total {
   background: #CCCFD1;
@@ -824,6 +829,29 @@ top: 37px;
   #ak_music_logo {
     left: 55px;
   }
+  .custom-pop {
+    width: 350px;
+    margin-left: -122px;
+  }
+  .popover-title {
+  margin: 0;
+  padding: 12px 14px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #fa254d;
+  border-bottom: 1px solid #f90c39;
+  border-radius:  0 0 5px 5px;
+  text-align: center;
+  color: #fff;
+  }
+  .popover.bottom > .arrow:after {
+  content: " ";
+  top: 1px;
+  margin-left: -14px;
+  border-top-width: 0;
+  border-bottom-color: #EBECED;
+}
 }
 @media (max-width: 480px) { 
   .btn-default {
@@ -860,6 +888,29 @@ top: 37px;
   #ak_music_logo {
     left: 55px;
   }
+  .custom-pop {
+    width: 350px;
+    margin-left: -122px;
+  }
+  .popover-title {
+  margin: 0;
+  padding: 12px 14px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #fa254d;
+  border-bottom: 1px solid #f90c39;
+  border-radius:  0 0 5px 5px;
+  text-align: center;
+  color: #fff;
+  }
+  .popover.bottom > .arrow:after {
+  content: " ";
+  top: 1px;
+  margin-left: -14px;
+  border-top-width: 0;
+  border-bottom-color: #EBECED;
+}
 }
 @media (max-width: 990px) { 
   .wrapper-with-intrinsic-ratio{
