@@ -958,7 +958,10 @@ top: 37px;
   color: #fff;
   }
   .popover .sizes p {
-  font-size: 12px;
+  font-size: 11px;
+  }
+  .popover .sizes input.input2 {
+  margin: 0px 5px 0px 8px;
   }
 }
 @media (max-width: 480px) { 
@@ -1016,7 +1019,10 @@ top: 37px;
   color: #fff;
   }
   .popover .sizes p {
-  font-size: 12px;
+  font-size: 11px;
+  }
+  .popover .sizes input.input2 {
+  margin: 0px 5px 0px 8px;
   }
 }
 @media (max-width: 990px) { 
