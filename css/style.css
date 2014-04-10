@@ -179,6 +179,10 @@ transition: all 0.5s ease-in-out;
   margin-bottom: 20px;
 }
 /* custom popover */
+.whatever-you-want {
+  
+    margin-left: -98px;
+}
 .custom-popover {
     top: 0; left: 0; 
     position: absolute;
